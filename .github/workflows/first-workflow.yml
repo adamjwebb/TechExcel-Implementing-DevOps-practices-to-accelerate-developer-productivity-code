@@ -16,8 +16,9 @@ jobs:
     needs: job1    
     runs-on: ubuntu-latest
     steps:
-      -name: Cowsays
+    -name: Cowsays
       uses: mscoutermarsh/cowsays-action@master
       with:
-        text: 'Ready for prod--ship it!'
+        text: 'Ready for prod--ship it!!'
         color: 'magenta'
+        
